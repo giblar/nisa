@@ -3,9 +3,10 @@ import { Link } from "react-router-dom";
 
 const First = () => {
   return (
-    <div className="flex flex-col justify-center items-center h-screen">
-      <h1 className="text-5xl text-white text-center">
+    <div className="flex flex-col justify-center items-center h-screen w-full">
+      <h1 className="text-3xl text-white text-center text-gud">
         hehehe gaje ga si nis maaf ya kalo alay fdjskfjksdlajfkljdsaklfjdklsajf
+        eh klo halamanya langsung muncul ini scroll ke atas nis , nge bug gitu tau harusnya mulainya dari atas tpi malah dibawah
       </h1>
       <Link
         to="/whatsapp"
