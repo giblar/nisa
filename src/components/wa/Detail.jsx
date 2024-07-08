@@ -26,7 +26,7 @@ const Detail = () => {
           textt="kerennnnn klik link dibawah yaa"
           posi=""
           backC="bg-gray-200"
-          linkNya="/magic"
+          linkNya="/click"
           textNya="https://ninjago.com"
         />
         <Chatin
