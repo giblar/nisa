@@ -2,10 +2,10 @@ import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 export const Nyoba = () => {
-  const [count, setCount] = useState(12);
-  const [countdu, setCountdu] = useState(20);
-  const [countti, setCountti] = useState(90);
-  const [countem, setCountem] = useState(31);
+  const [count, setCount] = useState(86);
+  const [countdu, setCountdu] = useState(75);
+  const [countti, setCountti] = useState(12);
+  const [countem, setCountem] = useState(93);
   const [isMatched, setIsMatched] = useState(false);
   const navigate = useNavigate();
 
