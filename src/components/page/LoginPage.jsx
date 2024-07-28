@@ -4,7 +4,7 @@ import '../../textc.css'
 const LoginPage = () => {
   return (
     <div className='bg-black'>
-        <div className='text-white text-center text-4xl h-screen flex justify-center items-center text-gud'>
+        {/* <div className='text-white text-center text-4xl h-screen flex justify-center items-center text-gud'>
           <p >pertama tama mari kita berterimakasih kepada pembuat bahasa pemrograman</p>
         </div>
         <div className='text-white text-center text-4xl h-screen flex justify-center items-center text-gud'>
@@ -42,7 +42,10 @@ const LoginPage = () => {
         </div>
 
         
-      <Login/>
+      <Login/> */}
+      <div className='h-screen flex items-center justify-center'>
+      <h1 className='text-white'>404 not found</h1>
+      </div>
     </div>
   )
 }

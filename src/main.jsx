@@ -20,42 +20,42 @@ const router = createBrowserRouter([
     element: <LoginPage/>,
     errorElement:<ErrorPage></ErrorPage>
   },
-  {
-    path: "/click",
-    element: <ClickPage/>,
-    errorElement:<ErrorPage></ErrorPage>
-  },
-  {
-    path: "/after",
-    element: <BeforePage></BeforePage>,
-    errorElement:<ErrorPage></ErrorPage>
-  },
-  // fdsf login>whatsapp>home>door>magic>before>
-  {
-    path: "/whatsapp",
-    element: <WaPage></WaPage>,
-    errorElement:<ErrorPage></ErrorPage>
-  },
-  {
-    path: "/home",
-    element: <HomePage></HomePage>,
-    errorElement:<ErrorPage></ErrorPage>
-  },
-  {
-    path: "/door",
-    element: <DoorPage></DoorPage>,
-    errorElement:<ErrorPage></ErrorPage>
-  },
-  {
-    path:"/magic",
-    element: <Magic></Magic>,
-    errorElement:<ErrorPage></ErrorPage>
-  },
-  {
-    path:"/selesai",
-    element: <SelesaiPage></SelesaiPage>,
-    errorElement:<ErrorPage></ErrorPage>
-  }
+  // {
+  //   path: "/click",
+  //   element: <ClickPage/>,
+  //   errorElement:<ErrorPage></ErrorPage>
+  // },
+  // {
+  //   path: "/after",
+  //   element: <BeforePage></BeforePage>,
+  //   errorElement:<ErrorPage></ErrorPage>
+  // },
+  // // fdsf login>whatsapp>home>door>magic>before>
+  // {
+  //   path: "/whatsapp",
+  //   element: <WaPage></WaPage>,
+  //   errorElement:<ErrorPage></ErrorPage>
+  // },
+  // {
+  //   path: "/home",
+  //   element: <HomePage></HomePage>,
+  //   errorElement:<ErrorPage></ErrorPage>
+  // },
+  // {
+  //   path: "/door",
+  //   element: <DoorPage></DoorPage>,
+  //   errorElement:<ErrorPage></ErrorPage>
+  // },
+  // {
+  //   path:"/magic",
+  //   element: <Magic></Magic>,
+  //   errorElement:<ErrorPage></ErrorPage>
+  // },
+  // {
+  //   path:"/selesai",
+  //   element: <SelesaiPage></SelesaiPage>,
+  //   errorElement:<ErrorPage></ErrorPage>
+  // }
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
